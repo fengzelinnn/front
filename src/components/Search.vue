@@ -13,11 +13,6 @@
                     class="search-input"
                 />
             </div>
-<!--            <div class="search-history" v-if="searchHistory.length > 0">-->
-<!--                <ul>-->
-<!--                    <li v-for="history in searchHistory" @click="searchQuery = history">{{ history }}</li>-->
-<!--                </ul>-->
-<!--            </div>-->
         </div>
         <br>
         <div class="results" :style="resultsStyle">
